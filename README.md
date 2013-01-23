@@ -6,8 +6,12 @@ This cookbook makes chef editing environment that contain knife and librarian-ch
 Requirements
 ------------
 
-#### packages
-- `chef` - chefenv needs chef(-solo) to work chef.
+#### other cookbooks
+- `git` - auto install by source for management cookbooks.
+
+#### gem packages
+- `chef` - auto install by gem for knife command.
+
 
 Attributes
 ----------
