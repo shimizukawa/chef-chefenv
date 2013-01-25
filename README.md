@@ -33,8 +33,8 @@ Attributes
   <tr>
     <td><tt>['chefenv']['dotchefpath']</tt></td>
     <td>string</td>
-    <td>path to '.chef'</td>
-    <td><tt>'/root/.chef'</tt></td>
+    <td>'.chef' directory's absolute path</td>
+    <td><tt>'$HOME/.chef'</tt></td>
   </tr>
   <tr>
     <td><tt>['chefenv']['node_name']</tt></td>
