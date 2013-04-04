@@ -5,4 +5,4 @@ site 'http://community.opscode.com/api/v1'
 # external
 
 cookbook 'chefenv',
-  :git => 'https://github.com/shimizukawa/chef-chefenv'
+  :git => 'https://github.com/shimizukawa/chef-chefenv.git'
