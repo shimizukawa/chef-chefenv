@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-require_recipe "git"  # install newest git
+include_recipe "git"  # install newest git
 
 gem_package 'chef'
 gem_package 'librarian'
