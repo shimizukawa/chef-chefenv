@@ -19,8 +19,8 @@
 
 include_recipe "git"  # install newest git
 
-gem_package 'chef'
-gem_package 'librarian-chef'
+package 'chef'
+package 'librarian-chef'
 
 directory "#{node.chefenv.dotchefpath}" do
   owner node.chefenv.user
